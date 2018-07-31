@@ -1,5 +1,5 @@
 {
-  "name": "dbhelper",
+  "name": "@bonjourjohn/dbhelper",
   "version": "1.0.0",
   "description": "Abstract Model and Collection classes for native NodeJS Mongodb driver with cache",
   "main": "index.js",
