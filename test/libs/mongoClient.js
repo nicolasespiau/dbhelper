@@ -11,7 +11,7 @@ module.exports = {
       return this.connectionInstance;
     }
 
-    this.client = await new MongoClient.connect("mongodb://localhost:27017");
+    this.client = await new MongoClient.connect("mongodb://localhost:27017", {useUnifiedTopology: true});
     this.connectionInstance = await this.client.db("foodb");
 
     return this.connectionInstance;

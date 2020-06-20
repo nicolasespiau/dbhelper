@@ -75,7 +75,7 @@ describe("Testing cache working with model", function () {
         })
         .catch(done)
     });
-    it("should have return a document", () => {
+    it("should have returned a document", () => {
       should.exist(doc);
     });
     it("should have picked document in db", () => {
